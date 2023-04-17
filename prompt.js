@@ -21,17 +21,14 @@ exports.getIssuePrompt = (input) => {
 exports.getProjectIdPrompt = (project) => {
     return `Project Name: Project Id\n\n
 
-    tj-operations: 35699833\n
-    tj-waitlist: 34319864\n
-    tj-dictionary: 29862705\n
-    BoostED Vue: 27830607\n
-    zelda: 26241115\n
-    tj-client: 26239185\n
-    tj-server: 26239159\n
-    goMad: 24746557\n\n
+    MegaBooster: 27830607\n
+    AI_Alpine: 26241115\n
+    Project768: 26239185\n
+    CodeMiner: 26239159\n
+    ShockWave: 24746557\n\n
 
-        Give me id of TJ Operation: 35699833\n
-        What is id of go mad: 24746557\n
+        Give me id of mega boost: 27830607\n
+        What is id of project miner: 26239159\n
         Give me id of ${project}:
     `
 }
